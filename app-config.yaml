@@ -1,0 +1,25 @@
+# app-config.yaml
+app:
+  title: Backstage
+  baseUrl: http://localhost:3000
+
+backend:
+  baseUrl: http://localhost:7000
+  listen:
+    port: 7000
+
+catalog:
+  locations:
+    - type: url
+      target: https://raw.githubusercontent.com/junickaquino/backstage-poc/main/catalog-info.yaml
+
+logging:
+  level: info
+
+techdocs:
+  storageUrl: http://localhost:7000/api/techdocs/static/docs
+
+proxy:
+  '/api':
+    target: http://localhost:7000
+    changeOrigin: true
