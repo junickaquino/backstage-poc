@@ -1,10 +1,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: backstage-poc
-  annotations:
-    github.com/project-slug: junickaquino/backstage-poc
+  name: terraform-resource-group
+  description: Terraform script to create an Azure resource group
+  tags:
+    - terraform
+    - azure
 spec:
-  type: other
-  lifecycle: unknown
-  owner: junickaquino
+  type: service
+  owner: junickmarco
+  lifecycle: experimental
+  repository: https://github.com/junickaquino/backstage-poc.git
