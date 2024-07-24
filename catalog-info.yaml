@@ -13,3 +13,12 @@ spec:
   owner: junickmarco
   lifecycle: experimental
   repository: https://github.com/junickaquino/backstage-poc.git
+  consumesApis:
+    - api:sample-api/1.0
+  providesApis:
+    - api:terraform-service/1.0
+  dependsOn:
+    - component:database-service
+    - component:auth-service
+  provides:
+    - component:web-service
