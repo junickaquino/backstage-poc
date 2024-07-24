@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: terraform-resource-group
+  name: Backstage-Repo-POC
   description: Terraform script to create an Azure resource group
   tags:
     - terraform
