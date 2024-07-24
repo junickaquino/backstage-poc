@@ -7,7 +7,7 @@ metadata:
     - terraform
     - azure
   annotations:
-    github.com/project-slug: value
+    github.com/project-slug: junickaquino/backstage-poc
 spec:
   type: service
   owner: junickmarco
