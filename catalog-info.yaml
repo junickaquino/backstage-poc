@@ -18,7 +18,7 @@ spec:
   providesApis:
     - terraform-service/1.0
   dependsOn:
-    - component: database-service
-    - component: auth-service
+    - database-service
+    - auth-service
   provides:
-    - component: web-service
+    - web-service
