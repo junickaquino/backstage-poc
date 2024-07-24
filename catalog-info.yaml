@@ -14,9 +14,9 @@ spec:
   lifecycle: experimental
   repository: https://github.com/junickaquino/backstage-poc.git
   consumesApis:
-    - api: sample-api
+    - sample-api
   providesApis:
-    - api: terraform-service/1.0
+    - terraform-service/1.0
   dependsOn:
     - component: database-service
     - component: auth-service
