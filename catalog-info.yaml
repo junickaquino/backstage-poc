@@ -6,6 +6,8 @@ metadata:
   tags:
     - terraform
     - azure
+  annotations:
+    github.com/project-slug: value
 spec:
   type: service
   owner: junickmarco
