@@ -15,10 +15,3 @@ spec:
   repository: https://github.com/junickaquino/backstage-poc.git
   consumesApis:
     - sample-api
-  providesApis:
-    - terraform-service/1.0
-  dependsOn:
-    - database-service
-    - auth-service
-  provides:
-    - web-service
